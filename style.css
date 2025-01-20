@@ -26,6 +26,14 @@
     border: none;
 }
 
+.secondery_bg{
+    background-color: #FFF8F3;
+}
+
+.text_center{
+    text-align: center;
+}
+
 /* Nav styles */
 
 .header{
@@ -42,6 +50,7 @@ nav{
 }
 
 .nav_title{
+    margin-left: 50px;
     font-weight: 800;
     font-size: 45px;
 }
@@ -75,11 +84,131 @@ nav li a{
     font-weight: 600px;
 }
 
+
+
 .banner_title{
     font-weight: bold;
     font-size: 85px;
 }
 
+.banner_description{
+    font-size: 18px;
+    color: #474747;
+}
+
 .banner_profile_pic{
     width: 580px
+} 
+
+/* main  styles */
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.section_title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.section_description{
+    font-size: 18px;
+    color: #757575;
+}
+
+.item-description{
+    font-weight: 600;
+}
+
+.about_items{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* what i do section styles */
+.skills_container{
+    display: flex;
+    gap: 24px;
+
+}
+
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+main .section_description{
+    padding:0px 150px;
+} 
+
+/* resume style  */
+.resume_container{
+    display: flex;
+    gap: 24px;
+    margin-top: 100px;
+}
+.resume_column_title{
+    font-size: 24px;
+}
+
+.experience_title{
+    font-size: 22px;
+}
+
+.experience_subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.experience_description, .experience_subtitle{
+    color: #757575;
+}
+
+.resume hr{
+    margin: 30px 5px;
+}
+
+.resume_btn_cv{
+    margin-top: 50px;
+}
+
+/* footer style */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer_column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    border: none;
+
 }
